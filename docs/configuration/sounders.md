@@ -11,3 +11,4 @@ Sounders are the configuration of the [agent](/docs/installation/sounder/). Agen
 |Name|A descriptive name of the sounder.|
 |IP|The IP Adress of the sounder. Used to send broadcasts and trigger config updates.|
 |Ringer PIN|Defaults to 0, which disbales the feature. If set this is the GPIO pin used to control the ringer wire.|
+|Screen|Defaults to off, enables the status/action screen on the sounder.|

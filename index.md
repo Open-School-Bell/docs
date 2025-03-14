@@ -33,7 +33,7 @@ Open School Bell is an open-source solution a modern school bell system. It not 
  - Connect a relay to the GPIO Pins on a Raspberry Pi to an existing ringer wire so Open School Bell can run your existing bells alongside RPi sounders.
  - Use a tablet to display the action/status screen as a physical lockdown button.
 
- ## How you'll set it up
+## How you'll set it up
 
  - Run the controller through docker, either on a server or on one of the sounder Pis.
  - Run the sounder agent on a Pi.
