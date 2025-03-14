@@ -4,4 +4,4 @@ parent: Configuration
 ---
 # Zones
 
-Zones are groups of [sounders](/docs/configuration/sounders/)
+Zones are groups of [sounders]({{site.baseurl}}/docs/configuration/sounders/) that are used for schedules and broadcasts.

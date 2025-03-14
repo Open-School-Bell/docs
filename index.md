@@ -10,7 +10,9 @@ nav_order: 1
 {: .warning }
 Open School Bell is still under development and has not been tested with widespread use.
 
-Open School Bell is an open-source solution a modern school bell system. It not only provides a way to schedule bells but also to broadcast to the sounders.
+Open School Bell is an open-source solution a modern school bell system. It not only provides a way to schedule bells but also to broadcast to the sounders, enabling effective mass-communication within your school.
+
+![Overview]({{site.baseurl}}/assets/overview.png)
 
 ## What you'll be getting
 
@@ -31,7 +33,7 @@ Open School Bell is an open-source solution a modern school bell system. It not 
 ### You could also
 
  - Connect a relay to the GPIO Pins on a Raspberry Pi to an existing ringer wire so Open School Bell can run your existing bells alongside RPi sounders.
- - Use a tablet to display the action/status screen as a physical lockdown button.
+ - Connect a touch screen to one of your sounder Pis and use it as a _Lockdown Screen_
 
 ## How you'll set it up
 

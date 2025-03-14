@@ -22,6 +22,7 @@ services:
     environment:
       DATABASE_URL: file:./data/db.db
       TTS_API: http://tts-api:8080/piper
+      JWT_KEY: your-super-secret-key
     volumes:
       - /path/to/data:/app/prisma/data
       - /path/to/sounds:/app/public/sounds
@@ -30,8 +31,6 @@ services:
 
  tts-api:
     image: openschoolbell/tts:main
-    environment:
-      CONTROLLER: http://controller:3000
 ```
 
 For volumes `/app/prisma/data` stores the SQLite database, and `/app/public/sounds` stores the uploaded audio files.

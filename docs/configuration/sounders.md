@@ -4,7 +4,7 @@ parent: Configuration
 ---
 # Sounders
 
-Sounders are the configuration of the [agent](/docs/installation/sounder/). Agents pull the configuration from the controller after their initial enrollment.
+Sounders are the configuration of the [agent]({{site.baseurl}}/docs/installation/sounder/). Agents pull the configuration from the controller after their initial enrollment, at startup, every hour, and when a call is made to `/update` on the agent.
 
 |Option|Explination|
 |:-----|:----------|

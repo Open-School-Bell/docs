@@ -5,7 +5,7 @@ parent: Installation
 
 # Sounder
 
-The sounder agent needs to run on a Raspverry Pi, or any computer with a sound card.
+The sounder agent needs to run on a Raspberry Pi, or any computer with a sound card.
 
 ## Software
 
@@ -25,9 +25,9 @@ Suggested Hardware:
 
 |Part|About|Link|
 |:---|:----|:---|
-|Raspberry Pi 5|Lowest spec is appropriate for the agent.|https://thepihut.com/products/raspberry-pi-5|
-|Raspberry Pi DAC+|The Pi 5 doesn't have a headphone out, but even with a Pi4 it would be ideal to use a DAC Hat to get better audio quality.|https://thepihut.com/products/iqaudio-dac|
-|Raspberry Pi PSU|Always use a proper USB power supply for your Pi.|https://thepihut.com/products/raspberry-pi-27w-usb-c-power-supply|
-|32GB SD Card|The agent stores nothing on the SD card, so 32GB is plenty.|https://thepihut.com/products/noobs-preinstalled-sd-card|
+|Raspberry Pi 5|Lowest spec is appropriate for the agent.|[https://thepihut.com/products/raspberry-pi-5](https://thepihut.com/products/raspberry-pi-5)|
+|Raspberry Pi DAC+|The Pi 5 doesn't have a headphone out, but even with a Pi4 it would be ideal to use a DAC Hat to get better audio quality.|[https://thepihut.com/products/iqaudio-dac](https://thepihut.com/products/iqaudio-dac)|
+|Raspberry Pi PSU|Always use a proper USB power supply for your Pi.|[https://thepihut.com/products/raspberry-pi-27w-usb-c-power-supply](https://thepihut.com/products/raspberry-pi-27w-usb-c-power-supply)|
+|32GB SD Card|The agent stores nothing on the SD card, so 32GB is plenty.|[https://thepihut.com/products/noobs-preinstalled-sd-card](https://thepihut.com/products/noobs-preinstalled-sd-card)|
 
 

@@ -1,3 +1,16 @@
+---
+title: License
+layout: page
+nav_order: 2
+---
+# License
+
+Open School Bell is developed and distributed under the MIT License.
+
+{: .warning }
+A copy of this license and copyright must be available to end users of Open School Bell, and derrived products.
+
+```
 MIT License
 
 Copyright (c) 2025 Open School Bell
@@ -19,3 +32,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
