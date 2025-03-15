@@ -12,7 +12,7 @@ Open School Bell is still under development and has not been tested with widespr
 
 Open School Bell is an open-source solution a modern school bell system. It not only provides a way to schedule bells but also to broadcast to the sounders, enabling effective mass-communication within your school.
 
-![Overview]({{site.baseurl}}/assets/overview.png)
+![Overview](/assets/overview.png)
 
 ## What you'll be getting
 

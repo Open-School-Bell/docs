@@ -30,7 +30,15 @@ services:
       - 3000:3000
 
  tts-api:
-    image: openschoolbell/tts:main
+    image: openschoolbell/tts:1
 ```
 
 For volumes `/app/prisma/data` stores the SQLite database, and `/app/public/sounds` stores the uploaded audio files.
+
+Paste the above yaml into `docker-compose.yml` in a folder on your docker server. Typically the `data` and `sounds` folders would be in the same folder as the `docker-compose.yml`.
+
+Once edited with the correct paths, pull down the controller and tts images with `docker compose pull`, and launch the controller with `docker compose up -d`.
+
+## Initial Setup
+
+Open a web browser and browse to `http://CONTROLLER_IP:3000/`. The default password is `bell`, once logged in you will be on the dashboard. 

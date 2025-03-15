@@ -2,8 +2,8 @@ title: Open School Bell
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://open-school-bell.github.io/docs/
-baseurl: /docs
+url: https://openschoolbell.co.uk
+baseurl: /
 
 aux_links:
   GitHub: https://github.com/Open-School-Bell
@@ -25,9 +25,16 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  - scope:
+      path: "guides"
+      type: "pages"
+    values:
+      layout: "default"
 
 gh_edit_link: true 
 gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/Open-School-Bell/docs" 
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
+
+heading_anchors: true
