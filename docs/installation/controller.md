@@ -14,23 +14,41 @@ The Docker container is built for amd64 and arm64, meaning that for single sound
 There are 2 containers that need to be running for the controller. `openschoolbell/controller` which runs the Remix app, and `openschoolbell/tts` which provides a text to speech endpoint and generation with Piper.
 
 ```yml
-services:
- controller:
-    image: openschoolbell/controller:main
-    restart: always
-    command: ['osb-remix']
-    environment:
-      DATABASE_URL: file:./data/db.db
-      TTS_API: http://tts-api:8080/piper
-      JWT_KEY: your-super-secret-key
-    volumes:
+x-shared:
+  osb-service: &osb-service
+    environment: &osb-environment
+      - DATABASE_URL=file:./data/db.db
+      - TTS_API=http://tts-api:8080/piper
+      - JWT_KEY=your-super-secret-key
+      - REDIS_URL=net-doc-redis:6379
+    volumes: &osb-volumes
       - /path/to/data:/app/prisma/data
       - /path/to/sounds:/app/public/sounds
+    image: openschoolbell/controller:main
+    restart: always
+    depends_on:
+      - osb-redis
+
+services:
+ osb-controller:
+    <<: *osb-service
+    command: ['osb-remix']
     ports:
       - 3000:3000
 
+  osb-worker:
+    <<: *osb-service
+    command: ['osb-worker']
+    depends_on:
+      - osb-remix
+
  tts-api:
     image: openschoolbell/tts:1
+ osb-redis:
+    image: redis:7
+    restart: always
+    volumes:
+      - ./data/redis:/data
 ```
 
 For volumes `/app/prisma/data` stores the SQLite database, and `/app/public/sounds` stores the uploaded audio files.
