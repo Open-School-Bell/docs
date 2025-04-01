@@ -18,6 +18,8 @@ permalink: pretty
 callouts:
   warning:
     color: yellow
+  info:
+    color: blue
 
 defaults:
   - scope:

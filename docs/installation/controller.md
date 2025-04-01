@@ -20,7 +20,7 @@ x-shared:
       - DATABASE_URL=file:./data/db.db
       - TTS_API=http://tts-api:8080/piper
       - JWT_KEY=your-super-secret-key
-      - REDIS_URL=net-doc-redis:6379
+      - REDIS_URL=osb-redis:6379
     volumes: &osb-volumes
       - /path/to/data:/app/prisma/data
       - /path/to/sounds:/app/public/sounds
@@ -40,7 +40,7 @@ services:
     <<: *osb-service
     command: ['osb-worker']
     depends_on:
-      - osb-remix
+      - osb-controller
 
  tts-api:
     image: openschoolbell/tts:1
