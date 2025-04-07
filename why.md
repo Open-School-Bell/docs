@@ -18,6 +18,6 @@ The spec for OSB to be a viable project was:
  - Text-To-Speech for tannoys.
  - Tie-in to existing bells.
 
- Over the Easter Holiday's in 2025 we installed _Phase 1_ of our OSB project. THis was 1 sounder, amp and 10 speakers into a new constructed building, and a Pi with a [Pi Touch Display 2](https://thepihut.com/products/raspberry-pi-touch-display-2) plus relay to act as our lockdown trigger and link into the exisitng bells.
+ Over the Easter Holiday's in 2025 we installed _Phase 1_ of our OSB project. This was 1 sounder, amp and 10 speakers into a newly constructed building, and a Pi with a [Pi Touch Display 2](https://thepihut.com/products/raspberry-pi-touch-display-2) plus relay to act as our lockdown trigger and link into the exisitng bells.
 
  ![Sounder Install](/assets/sounder-install.jpg)

@@ -7,6 +7,7 @@ baseurl: /
 
 aux_links:
   GitHub: https://github.com/Open-School-Bell
+  X: https://x.com/openschoolbell
 
 logo: "/assets/logo.png"
 favicon_ico: "/assets/favicon.ico"

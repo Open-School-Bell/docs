@@ -11,7 +11,7 @@ The Docker container is built for amd64 and arm64, meaning that for single sound
 
 ## Docker Compose
 
-There are 2 containers that need to be running for the controller. `openschoolbell/controller` which runs the Remix app, and `openschoolbell/tts` which provides a text to speech endpoint and generation with Piper.
+There are 3 containers that need to be running for the controller. `openschoolbell/controller` which runs the Remix app, `openschoolbell/tts` which provides a text to speech endpoint and generation with Piper, and `redis` for the background job scheduling.
 
 ```yml
 x-shared:
@@ -24,7 +24,7 @@ x-shared:
     volumes: &osb-volumes
       - /path/to/data:/app/prisma/data
       - /path/to/sounds:/app/public/sounds
-    image: openschoolbell/controller:main
+    image: openschoolbell/controller:1
     restart: always
     depends_on:
       - osb-redis
