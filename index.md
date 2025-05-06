@@ -7,9 +7,6 @@ nav_order: 1
 # Open School Bell
 {: .fs-9 }
 
-{: .warning }
-Open School Bell is still under development and has not been tested with widespread use.
-
 Open School Bell is an open-source solution to provide a modern school bell system. It not only provides a way to schedule bells but also to broadcast to the sounders, enabling effective mass-communication within your school. On top of that it contains a full-featured [lockdown](/lockdown) system.
 
 ![Overview](/assets/overview.png)
