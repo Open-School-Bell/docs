@@ -18,7 +18,7 @@ x-shared:
   osb-service: &osb-service
     environment: &osb-environment
       - DATABASE_URL=file:./data/db.db
-      - TTS_API=http://tts-api:8080/piper
+      - TTS_API=http://tts-api
       - JWT_KEY=your-super-secret-key
       - REDIS_URL=osb-redis:6379
     volumes: &osb-volumes
@@ -43,7 +43,7 @@ services:
       - osb-controller
 
  tts-api:
-    image: openschoolbell/tts:1
+    image: openschoolbell/tts:2
  osb-redis:
     image: redis:7
     restart: always
