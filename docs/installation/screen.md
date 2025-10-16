@@ -27,3 +27,16 @@ Assuming a fresh install of Rasbian on a Raspberry Pi:
 Type=Application
 Exec=chromium http://localhost:3000/screen.html -kiosk
 ```
+
+## Hardware
+
+Suggested Hardware:
+
+|Part|About|Link|
+|:---|:----|:---|
+|Raspberry Pi 5|Lowest spec is appropriate for the agent.|[https://thepihut.com/products/raspberry-pi-5](https://thepihut.com/products/raspberry-pi-5)|
+|Raspberry Pi DAC+|The Pi 5 doesn't have a headphone out, but even with a Pi4 it would be ideal to use a DAC Hat to get better audio quality.|[https://thepihut.com/products/iqaudio-dac](https://thepihut.com/products/iqaudio-dac)|
+|Raspberry Pi PSU|Always use a proper USB power supply for your Pi.|[https://thepihut.com/products/raspberry-pi-27w-usb-c-power-supply](https://thepihut.com/products/raspberry-pi-27w-usb-c-power-supply)|
+|32GB SD Card|The agent stores nothing on the SD card, so 32GB is plenty.|[https://thepihut.com/products/noobs-preinstalled-sd-card](https://thepihut.com/products/noobs-preinstalled-sd-card)|
+|Raspberry Pi TOuch Display 2|Touch screen to display the screen on and interact with the action buttons.|[https://thepihut.com/products/raspberry-pi-touch-display-2](https://thepihut.com/products/raspberry-pi-touch-display-2)|
+|Pi Wall Bracket (3d Printed)|Housing that contains the Pi on teh back of the screen and mounts flush toi a wall.|[https://www.thingiverse.com/thing:7172671](https://www.thingiverse.com/thing:7172671)|
