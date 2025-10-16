@@ -39,4 +39,4 @@ Suggested Hardware:
 |Raspberry Pi PSU|Always use a proper USB power supply for your Pi.|[https://thepihut.com/products/raspberry-pi-27w-usb-c-power-supply](https://thepihut.com/products/raspberry-pi-27w-usb-c-power-supply)|
 |32GB SD Card|The agent stores nothing on the SD card, so 32GB is plenty.|[https://thepihut.com/products/noobs-preinstalled-sd-card](https://thepihut.com/products/noobs-preinstalled-sd-card)|
 |Raspberry Pi TOuch Display 2|Touch screen to display the screen on and interact with the action buttons.|[https://thepihut.com/products/raspberry-pi-touch-display-2](https://thepihut.com/products/raspberry-pi-touch-display-2)|
-|Pi Wall Bracket (3d Printed)|Housing that contains the Pi on teh back of the screen and mounts flush toi a wall.|[https://www.thingiverse.com/thing:7172671](https://www.thingiverse.com/thing:7172671)|
+|Pi Wall Bracket (3d Printed)|Housing that contains the Pi on the back of the screen and mounts flush to a wall.|[https://www.thingiverse.com/thing:7172671](https://www.thingiverse.com/thing:7172671)|
