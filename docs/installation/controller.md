@@ -30,7 +30,7 @@ x-shared:
       - osb-redis
 
 services:
- osb-controller:
+  osb-controller:
     <<: *osb-service
     command: ['osb-remix']
     ports:
@@ -42,9 +42,9 @@ services:
     depends_on:
       - osb-controller
 
- tts-api:
+  tts-api:
     image: openschoolbell/tts:2
- osb-redis:
+  osb-redis:
     image: redis:7
     restart: always
     volumes:
