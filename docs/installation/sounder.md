@@ -18,6 +18,14 @@ Assuming a fresh install of Rasbian Lite on a Raspberry Pi:
  1. Create a sounder in the controller, not down the controller address and sounder key
  2. Run the installer from the repo. `curl https://raw.githubusercontent.com/Open-School-Bell/sounder/refs/heads/main/install-docker.sh | sh` and enter the controller address and sounder key.
 
+#### Known Issues
+
+If you have to set your soundcard with `raspi-config` you need to mount the asound config into the container by adding this volume:
+
+```
+- /home/sounder/.asoundrc:/etc/asound.conf:ro
+```
+
 ### Install (Direct Agent)
 
 The direct agent is the same agent as the docker agent just running "bare metal", it is possibly less reliable than the Docker agent.
